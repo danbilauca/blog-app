@@ -14,3 +14,4 @@ CMD ["npm", "start"]
 # WORKDIR /app
 # COPY --from=build /app/build /build
 # RUN npm install -g serve
+# ENTRYPOINT [ "serve", "./build" ]
